@@ -21,7 +21,6 @@ const Navbar = () => {
         <div className="col-4">
           <div className="inner">
             <h2>
-              {" "}
               ETH <span className="span"> -1.02% </span> <br />{" "}
               <span className="price"> $1200</span>
             </h2>

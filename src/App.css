@@ -260,7 +260,7 @@ p {
 
 .navs .col-4 .inner {
   padding: 8px 14px;
-  height: 61px;
+  min-height: 61px;
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 6px;
   display: flex;
