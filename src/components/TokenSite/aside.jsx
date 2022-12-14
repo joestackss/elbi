@@ -1,6 +1,6 @@
 import React from "react";
-import ColumnOne from "../../SubmitPage/ColumnOne";
-import ColumnOne1 from "../../SubmitPage/ColumnOne1";
+import ColumnOne from "../../components/TokenSite/SubmitPage/ColumnOne";
+import ColumnOne1 from "../../components/TokenSite/SubmitPage/ColumnOne1";
 import Button from "./button";
 
 const Aside = () => {

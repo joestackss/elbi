@@ -6,7 +6,7 @@ import TokenInfoHead from "./info-head";
 import TokenInfo1 from "./info1";
 import Price from "./price";
 
-const MainToken = () => {
+const TokenSiteSub = () => {
   return (
     <div className="main-token">
       <div className="aside">
@@ -33,4 +33,4 @@ const MainToken = () => {
   );
 };
 
-export default MainToken;
+export default TokenSiteSub;

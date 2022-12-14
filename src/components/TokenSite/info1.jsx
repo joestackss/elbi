@@ -1,11 +1,11 @@
 import React from "react";
 
-const TokenInfo = () => {
+const TokenInfo1 = () => {
   return (
     <div className="info-main">
       {/* CONTENT */}
 
-      <div className="thead thead-1">
+      <div className="thead thead-1 " id="token-light">
         <div className="col-icon">
           <img src="/heart-icon.svg" alt="heart" />
         </div>
@@ -19,9 +19,9 @@ const TokenInfo = () => {
             <img src="/fox-icon.svg" alt="fox" />
           </div>
           <div className="inner-3">
-              <h3>Golden Sparrows</h3>
-            <div className="icon-col">
-              <img src="/c-icon.svg" alt="c" />
+            <h3>Golden Sparrows</h3>
+            <div className="icon-col flex">
+              <img src="/c-icon.svg" alt="c" className="mr-2" />
               <img src="/c-icon-1.svg" alt="c" />
             </div>
           </div>
@@ -69,4 +69,4 @@ const TokenInfo = () => {
   );
 };
 
-export default TokenInfo;
+export default TokenInfo1;
