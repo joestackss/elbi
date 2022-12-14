@@ -13,7 +13,7 @@ const Aside = () => {
         content2="New Listings"
         content3="Daily Top"
         content4="All Time Top"
-        image="/trophy.png"
+        image="/Trophy.svg"
       />
       <ColumnOne
         title="Newborn Tokens"
