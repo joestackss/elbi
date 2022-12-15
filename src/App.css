@@ -79,31 +79,32 @@ h4,
 p {
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 700;
 }
 
 h1 {
-  font-weight: 800;
   font-size: 4rem;
   line-height: 1.2em;
   padding-bottom: .3em;
-  color: #000;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 h2 {
-  font-weight: 800;
   font-size: 2.5rem;
   line-height: 1.5em;
   color: #FFFFFF;
+  text-transform: capitalize;
+  font-weight: 700;
 }
 
 h4 {
-  font-weight: 500;
   font-size: 1rem;
   line-height: 1.5em;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #0D0D2B;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
 
@@ -123,14 +124,14 @@ p {
   width: max-content;
   display: inline-block;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.0015em;
   text-transform: capitalize;
   color: #FEFEFE;
   transition: var(--transition);
   padding: 14px 10px;
-  min-width: 320.5px;
+  min-width: 320px;
   border-radius: 4px;
 }
 
@@ -138,7 +139,7 @@ p {
   width: 100%;
   height: 40px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.0015em;
   text-transform: capitalize;
@@ -151,6 +152,9 @@ p {
 }
 
 .btn-wide-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 45%;
   height: 40px;
   cursor: pointer;
@@ -162,7 +166,6 @@ p {
   transition: var(--transition);
   padding: 14px 10px;
   border-radius: 4px;
-  border: 1px solid #FFFFFF;
   border-radius: 4px;
 }
 
@@ -219,6 +222,14 @@ p {
   color: #D3BEFD;
 }
 
+.btn-purple-variant-1 {
+  color: #fff;
+  background: #5D5FEF;
+  border-radius: 4px;
+}
+
+
+
 
 /* NAVIGATION */
 .navs {
@@ -244,7 +255,7 @@ p {
 
 
 .navs .col-3 {
-  /* border: 1px solid purple; */
+  border: 1px solid purple;
   width: 60%;
   display: flex;
   justify-content: center;
@@ -300,6 +311,12 @@ p {
   border: transparent;
   margin-left: 1em;
 }
+
+.col-3 input:active {
+  background-color: transparent;
+  border: none;
+}
+
 
 
 
@@ -407,7 +424,7 @@ p {
 }
 
 .asides .col-1 h4 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 15px;
   line-height: 15px;
   color: var(--color-gray);
@@ -426,9 +443,7 @@ p {
   height: 45px;
   background: #5D5FEF;
   border-radius: 4px;
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
@@ -784,6 +799,8 @@ hr {
 .gray-text {
   color: #FFFFFF;
   opacity: 0.5;
+  text-transform: capitalize;
+  font-weight: 300;
 }
 
 .phenix {
@@ -920,7 +937,72 @@ hr {
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
+}
 
+
+/* SUBMIT PAGE */
+
+.submit-main {
+  padding: 3em 3em;
+}
+
+.submit-page {
+  max-width: 805px;
+  width: 100%;
+  margin: 0 auto;
+  /* background-color: #242B43; */
+}
+
+
+
+/* TYPOGRAPHY */
+
+#submit-page h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.submit-page .label {
+  background: #1A2036;
+  border-radius: 3px;
+  min-width: 100%;
+  padding: .6em;
+}
+
+.submit-page .label input {
+  min-width: 100%;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.submit-page .label input::placeholder {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.submit-page .input-column h5 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.submit-page .input-column span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+
+#input-checkbox {
+  border: 1px solid #229ED9;
+  border-radius: 50%;
+  background-color: transparent;
 }
 
 

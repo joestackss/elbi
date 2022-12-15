@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="container">
       <div className="navs">
         <div className="col-1 ">
-          <div className="inner-1">
+          <div className="inner-1 mr-4">
             <img src="/hamburger-menu.svg" alt="hamburger-icon" />
           </div>
           <div className="inner-2">
